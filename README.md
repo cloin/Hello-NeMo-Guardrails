@@ -4,7 +4,7 @@
 
 This project provides a practical introduction to NVIDIA NeMo Guardrails, an open-source toolkit for adding programmable guardrails to Large Language Model (LLM) based conversational systems. NeMo Guardrails enables developers to define, implement, and enforce rules that guide and constrain the behavior of LLMs to ensure safer, more controllable, and more reliable interactions.
 
-The examples in this repository can run with either OpenAI or NVIDIA NIM (NVIDIA Inference Microservice) LLM backends.
+The examples in this repository can run with either OpenAI or NIM (NVIDIA Inference Microservice) LLM backends.
 
 ## What are Guardrails?
 
@@ -34,7 +34,7 @@ This repository contains several example implementations of NeMo Guardrails:
 
 - Python 3.9, 3.10, 3.11, or 3.12
 - **For OpenAI mode**: An OpenAI API key
-- **For NIM mode**: Access to an NVIDIA NIM endpoint running the needed model
+- **For NIM mode**: Access to an NIM endpoint running the needed model
 
 ### Installation
 
@@ -65,13 +65,13 @@ python jailbreak.py
 python topical.py
 ```
 
-## Running with NVIDIA NIM
+## Running with NIM
 
-### Setting up a NVIDIA NIM Endpoint
+### Setting up a NIM Endpoint
 
-To use these examples with NVIDIA NIM, you need to have a running NIM endpoint with the Meta Llama 3.1 model. 
+To use these examples with NIM, you need to have a running NIM endpoint with the Meta Llama 3.1 model. 
 
-1. **NVIDIA NIM Deployment**:
+1. **NIM Deployment**:
    - The examples are configured to use the `meta/llama-3.1-8b-instruct` model
    - For instructions on deploying this model via NIM, see: [Meta Llama 3.1 Deployment Guide](https://build.nvidia.com/meta/llama-3_1-8b-instruct/deploy)
    - The examples expect the NIM endpoint to be available at `http://localhost:8000/v1`
