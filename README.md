@@ -6,6 +6,8 @@ This project provides a practical introduction to NVIDIA NeMo Guardrails, an ope
 
 The examples in this repository can run with either OpenAI or NIM (NVIDIA Inference Microservice) LLM backends.
 
+![demo gif](./topical_demo.gif)
+
 ## What are Guardrails?
 
 Guardrails are programmable constraints that help control LLM behavior. They can help with:
