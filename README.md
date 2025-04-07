@@ -56,6 +56,11 @@ This repository contains several example implementations of NeMo Guardrails:
 
 ## Running with OpenAI (Default)
 
+Obtain and export an OpenAI API key
+```bash
+export OPENAI_API_KEY=<your_API_key>
+```
+
 The examples are configured to use OpenAI models by default. Each example can be run independently:
 
 ```bash
