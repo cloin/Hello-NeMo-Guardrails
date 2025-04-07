@@ -1,0 +1,31 @@
+# Core NeMo Guardrails package
+nemoguardrails>=0.11.0
+
+# For OpenAI LLM support
+openai>=0.27.0
+
+# For LangChain integration with OpenAI models
+langchain>=0.0.267
+langchain-openai>=0.0.1
+
+# For NIM endpoint integration
+langchain-nvidia-ai-endpoints>=0.0.4
+
+# For secure API key management
+python-dotenv>=1.0.0
+
+# For RAG functionality and vector storage
+annoy>=1.17.1
+fastapi>=0.95.0
+uvicorn>=0.22.0
+
+# For CLI tools and utilities
+typer>=0.9.0
+rich>=13.3.5
+
+# For working with data in custom actions
+pandas>=2.0.0
+numpy>=1.24.0
+
+# For testing and development
+pytest>=7.3.1

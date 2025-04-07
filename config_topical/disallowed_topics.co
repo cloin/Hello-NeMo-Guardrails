@@ -1,0 +1,27 @@
+
+define user ask about politics
+  "What do you think about the current president?"
+  "Who should I vote for?"
+  "What is your political opinion?"
+  "Tell me about the upcoming election"
+
+define user ask about stock market
+  "What stocks should I invest in?"
+  "Will the stock market go up or down tomorrow?"
+  "Give me stock tips"
+  "What do you think about cryptocurrency investments?"
+
+define bot refuse to talk about politics
+  "I'm a cooking assistant, I don't provide information about politics. I'd be happy to help you with cooking recipes instead."
+
+define bot refuse to talk about stock market
+  "I'm a cooking assistant, I don't provide financial advice or stock market predictions. I'd be happy to help you with cooking recipes instead."
+
+define flow politics rail
+  user ask about politics
+  bot refuse to talk about politics
+
+define flow stock market rail
+  user ask about stock market
+  bot refuse to talk about stock market
+        

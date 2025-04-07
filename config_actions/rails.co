@@ -1,0 +1,31 @@
+
+define user ask for time
+  "What time is it?"
+  "What is the current time?"
+  "Tell me the time"
+
+define user ask for date
+  "What date is it today?"
+  "What is the current date?"
+  "Tell me today's date"
+
+define user ask for weather
+  "How's the weather?"
+  "What's the weather like?"
+  "Tell me the weather"
+
+define flow time request
+  user ask for time
+  $time = execute get_current_time
+  bot return $time
+
+define flow date request
+  user ask for date
+  $date = execute get_current_date
+  bot return $date
+
+define flow weather request
+  user ask for weather
+  $weather = execute get_weather
+  bot return $weather
+        

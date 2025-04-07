@@ -1,0 +1,13 @@
+
+models:
+  - type: main
+    engine: openai
+    model: gpt-3.5-turbo
+
+instructions:
+  - type: general
+    content: |
+      You are a helpful AI assistant.
+      Always be polite and helpful.
+      Never provide harmful or illegal information.
+        
